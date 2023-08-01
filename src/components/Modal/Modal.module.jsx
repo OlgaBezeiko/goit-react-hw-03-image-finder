@@ -9,12 +9,12 @@ export const Overlay = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(45deg, #d6ccbc 0%, #d6ccbc 100%);
+  background: linear-gradient(45deg, #f5f5dc 0%, #969da5 100%);
   z-index: 1000;
 `;
 
 export const ModalContent = styled.div`
-  border-radius: 25px;
+  border-radius: 20px;
   overflow: hidden;
   max-width: calc(100vw - 48px);
   max-height: calc(100vh - 24px);

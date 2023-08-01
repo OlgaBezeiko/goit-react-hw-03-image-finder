@@ -4,15 +4,15 @@ export const SearchbarHeader = styled.header`
   top: 0;
   left: 0;
   position: sticky;
-  z-index: 1100;
+  z-index: 900;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 64px;
-  padding-right: 24px;
-  padding-left: 24px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  min-height: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 
   width: 100vw;
   background: linear-gradient(138.13deg, #22343cae 25.87%, #1f2e35b1 100%);
@@ -22,37 +22,37 @@ export const SearchbarHeader = styled.header`
 `;
 export const Form = styled.form`
   width: 100%;
-  max-width: 600px;
+  max-width: 900px;
   border-radius: 3px;
   overflow: hidden;
 `;
 export const Button = styled.button`
-  width: 120px;
-  height: 48px;
+  width: 100px;
+  height: 40px;
 
   line-height: 100%;
   text-align: center;
-  color: #ffffff;
+  color: #111111;
 
-  border-radius: 12px;
+  border-radius: 10px;
 
-  background: linear-gradient(180deg, #40df9f 0%, #3ed598 100%);
+  background: #969da5;
   box-shadow: 0px 2px 4px rgba(15, 218, 137, 0.3);
 
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   :hover,
   :focus {
-    background: #286053;
+    background: #4587ec;
   }
 `;
 export const Input = styled.input`
   margin: 12px;
 
-  width: 226px;
-  height: 48px;
+  width: 400px;
+  height: 35px;
 
-  border-radius: 12px;
+  border-radius: 10px;
 
-  background: #2a3c44;
+  background: #969da5;
 `;
