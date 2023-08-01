@@ -1,15 +1,16 @@
-import { Vortex } from 'react-loader-spinner';
+import { BallTriangle } from 'react-loader-spinner';
 
 export const Loader = () => {
   return (
-    <Vortex
-      visible={true}
-      height="80"
-      width="80"
-      ariaLabel="vortex-loading"
-      wrapperStyle={{}}
-      wrapperClass="vortex-wrapper"
-      colors={['red', 'green', 'blue', 'yellow', 'orange', 'purple']}
-    />
+    <BallTriangle
+  height={100}
+  width={100}
+  radius={5}
+  color="#4fa94d"
+  ariaLabel="ball-triangle-loading"
+  wrapperClass={{}}
+  wrapperStyle=""
+  visible={true}
+/>
   );
 };
