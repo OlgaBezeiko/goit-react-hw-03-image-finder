@@ -1,16 +1,16 @@
 import styled from '@emotion/styled';
 
 export const ButtonLoad = styled.button`
-  width: 120px;
-  height: 48px;
+  width: 110px;
+  height: 40px;
 
   line-height: 100%;
   text-align: center;
-  color: #ffffff;
+  color: #111111;
 
-  border-radius: 12px;
+  border-radius: 10px;
 
-  background: linear-gradient(180deg, #40df9f 0%, #3ed598 100%);
+  background:  #4587ec;
   box-shadow: 0px 2px 4px rgba(15, 218, 137, 0.3);
 
   transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
